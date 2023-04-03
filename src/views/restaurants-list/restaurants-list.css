@@ -1,0 +1,21 @@
+.main-container {
+    width: 100%;
+}
+
+.cardsStyle {
+    margin-top: 20px;
+}
+
+.restorants-list {
+    overflow: scroll;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.link-card,
+.link-card:hover,
+.link-card:focus,
+.link-card:active p, h2
+ {
+    text-decoration: none;
+}

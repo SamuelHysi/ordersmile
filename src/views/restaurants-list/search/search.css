@@ -1,0 +1,15 @@
+.search-component {
+    margin: auto;
+    margin-bottom: 70px;
+    width: 50%;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 5px rgba(7, 84, 119, 0.5);
+    background: white;
+    border: 1px solid white;
+}
+
+.search-component .search-input {
+    margin-left: 17px;
+}
