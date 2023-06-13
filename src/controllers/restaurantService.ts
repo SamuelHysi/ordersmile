@@ -34,7 +34,7 @@ const getCategories = async (restaurantId: number) => {
 
 const getRestaurants = async () => {
   try {
-    const response: any = await api.post('/network/1/restaurants');
+    const response: any = await api.post('/network/5/restaurants');
     return response.restaurants;
   } catch (error) {
     console.error(error);
